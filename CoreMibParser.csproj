@@ -1,0 +1,169 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="mibs\APPLICATION-MIB" />
+    <None Remove="mibs\ATM-MIB" />
+    <None Remove="mibs\Bridge.mib" />
+    <None Remove="mibs\CHARACTER-MIB" />
+    <None Remove="mibs\CISCO-LWAPP-AP-MIB.mib" />
+    <None Remove="mibs\CISCO-SMI-V1SMI.my" />
+    <None Remove="mibs\CLNS-MIB" />
+    <None Remove="mibs\DECNET-PHIV-MIB" />
+    <None Remove="mibs\DSA-MIB" />
+    <None Remove="mibs\ENTITY-MIB.my" />
+    <None Remove="mibs\EtherLike-MIB" />
+    <None Remove="mibs\FDDI-SMT73-MIB" />
+    <None Remove="mibs\HOST-RESOURCES-MIB" />
+    <None Remove="mibs\IANAifType-MIB" />
+    <None Remove="mibs\IF-MIB" />
+    <None Remove="mibs\INET-ADDRESS-MIB.txt" />
+    <None Remove="mibs\IP-MIB.txt" />
+    <None Remove="mibs\NET-SNMP-AGENT-MIB.txt" />
+    <None Remove="mibs\NET-SNMP-EXAMPLES-MIB.txt" />
+    <None Remove="mibs\NET-SNMP-MIB.txt" />
+    <None Remove="mibs\NET-SNMP-TC.txt" />
+    <None Remove="mibs\PARALLEL-MIB" />
+    <None Remove="mibs\Printer-MIB.mib" />
+    <None Remove="mibs\Q-BRIDGE-MIB.mib" />
+    <None Remove="mibs\RFC1066-MIB" />
+    <None Remove="mibs\RFC1155-SMI" />
+    <None Remove="mibs\RFC1156-MIB" />
+    <None Remove="mibs\RFC1158.MIB" />
+    <None Remove="mibs\rfc1212.mib" />
+    <None Remove="mibs\RFC1213-MIB" />
+    <None Remove="mibs\RFC1229-MIB" />
+    <None Remove="mibs\RFC1231-MIB" />
+    <None Remove="mibs\RFC1232-MIB" />
+    <None Remove="mibs\RFC1233-MIB" />
+    <None Remove="mibs\RFC1253-MIB" />
+    <None Remove="mibs\RFC1271-MIB" />
+    <None Remove="mibs\RFC1289.MIB" />
+    <None Remove="mibs\RFC1304-MIB" />
+    <None Remove="mibs\RFC1315.MIB" />
+    <None Remove="mibs\RFC1316-MIB" />
+    <None Remove="mibs\RFC1317-MIB" />
+    <None Remove="mibs\RFC1318-MIB" />
+    <None Remove="mibs\RFC1381-MIB" />
+    <None Remove="mibs\RFC1382-MIB" />
+    <None Remove="mibs\RFC1389-MIB" />
+    <None Remove="mibs\RFC1398-MIB" />
+    <None Remove="mibs\RFC1406-MIB" />
+    <None Remove="mibs\RFC1407-MIB" />
+    <None Remove="mibs\RFC1414-MIB" />
+    <None Remove="mibs\RFC1623.MIB" />
+    <None Remove="mibs\RFC1643.MIB" />
+    <None Remove="mibs\RFC1665.MI2" />
+    <None Remove="mibs\RFC1743.MI2" />
+    <None Remove="mibs\RMON-MIB" />
+    <None Remove="mibs\RMON2-MIB" />
+    <None Remove="mibs\SIP-MIB" />
+    <None Remove="mibs\SNA-NAU-MIB" />
+    <None Remove="mibs\SNMP-FRAMEWORK-MIB.mib" />
+    <None Remove="mibs\SNMP-VIEW-BASED-ACM-MIB.mib" />
+    <None Remove="mibs\SNMPv2-CONF" />
+    <None Remove="mibs\SNMPv2-MIB" />
+    <None Remove="mibs\SNMPv2-SMI" />
+    <None Remove="mibs\SNMPv2-TC" />
+    <None Remove="mibs\SNMPv2-TM" />
+    <None Remove="mibs\TCPIPX-MIB" />
+    <None Remove="mibs\TOKEN-RING-RMON-MIB" />
+    <None Remove="mibs\TOKENRING-MIB" />
+    <None Remove="mibs\UCD-DEMO-MIB.txt" />
+    <None Remove="mibs\UCD-DISKIO-MIB.txt" />
+    <None Remove="mibs\UCD-DLMOD-MIB.txt" />
+    <None Remove="mibs\UCD-IPFWACC-MIB.txt" />
+    <None Remove="mibs\UCD-SNMP-MIB.txt" />
+    <None Remove="mibs\usm.mib" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="mibs\APPLICATION-MIB" />
+    <EmbeddedResource Include="mibs\ATM-MIB" />
+    <EmbeddedResource Include="mibs\Bridge.mib" />
+    <EmbeddedResource Include="mibs\CHARACTER-MIB" />
+    <EmbeddedResource Include="mibs\CISCO-LWAPP-AP-MIB.mib" />
+    <EmbeddedResource Include="mibs\CISCO-SMI-V1SMI.my" />
+    <EmbeddedResource Include="mibs\CLNS-MIB" />
+    <EmbeddedResource Include="mibs\DECNET-PHIV-MIB" />
+    <EmbeddedResource Include="mibs\DSA-MIB" />
+    <EmbeddedResource Include="mibs\ENTITY-MIB.my" />
+    <EmbeddedResource Include="mibs\EtherLike-MIB" />
+    <EmbeddedResource Include="mibs\FDDI-SMT73-MIB" />
+    <EmbeddedResource Include="mibs\HOST-RESOURCES-MIB" />
+    <EmbeddedResource Include="mibs\IANAifType-MIB" />
+    <EmbeddedResource Include="mibs\IF-MIB" />
+    <EmbeddedResource Include="mibs\INET-ADDRESS-MIB.txt" />
+    <EmbeddedResource Include="mibs\IP-MIB.txt" />
+    <EmbeddedResource Include="mibs\NET-SNMP-AGENT-MIB.txt" />
+    <EmbeddedResource Include="mibs\NET-SNMP-EXAMPLES-MIB.txt" />
+    <EmbeddedResource Include="mibs\NET-SNMP-MIB.txt" />
+    <EmbeddedResource Include="mibs\NET-SNMP-TC.txt" />
+    <EmbeddedResource Include="mibs\PARALLEL-MIB" />
+    <EmbeddedResource Include="mibs\Printer-MIB.mib" />
+    <EmbeddedResource Include="mibs\Q-BRIDGE-MIB.mib" />
+    <EmbeddedResource Include="mibs\RFC1066-MIB" />
+    <EmbeddedResource Include="mibs\RFC1155-SMI" />
+    <EmbeddedResource Include="mibs\RFC1156-MIB" />
+    <EmbeddedResource Include="mibs\RFC1158.MIB" />
+    <EmbeddedResource Include="mibs\rfc1212.mib" />
+    <EmbeddedResource Include="mibs\RFC1213-MIB" />
+    <EmbeddedResource Include="mibs\RFC1229-MIB" />
+    <EmbeddedResource Include="mibs\RFC1231-MIB" />
+    <EmbeddedResource Include="mibs\RFC1232-MIB" />
+    <EmbeddedResource Include="mibs\RFC1233-MIB" />
+    <EmbeddedResource Include="mibs\RFC1253-MIB" />
+    <EmbeddedResource Include="mibs\RFC1271-MIB" />
+    <EmbeddedResource Include="mibs\RFC1289.MIB" />
+    <EmbeddedResource Include="mibs\RFC1304-MIB" />
+    <EmbeddedResource Include="mibs\RFC1315.MIB" />
+    <EmbeddedResource Include="mibs\RFC1316-MIB" />
+    <EmbeddedResource Include="mibs\RFC1317-MIB" />
+    <EmbeddedResource Include="mibs\RFC1318-MIB" />
+    <EmbeddedResource Include="mibs\RFC1381-MIB" />
+    <EmbeddedResource Include="mibs\RFC1382-MIB" />
+    <EmbeddedResource Include="mibs\RFC1389-MIB" />
+    <EmbeddedResource Include="mibs\RFC1398-MIB" />
+    <EmbeddedResource Include="mibs\RFC1406-MIB" />
+    <EmbeddedResource Include="mibs\RFC1407-MIB" />
+    <EmbeddedResource Include="mibs\RFC1414-MIB" />
+    <EmbeddedResource Include="mibs\RFC1623.MIB" />
+    <EmbeddedResource Include="mibs\RFC1643.MIB" />
+    <EmbeddedResource Include="mibs\RFC1665.MI2" />
+    <EmbeddedResource Include="mibs\RFC1743.MI2" />
+    <EmbeddedResource Include="mibs\RMON-MIB" />
+    <EmbeddedResource Include="mibs\RMON2-MIB" />
+    <EmbeddedResource Include="mibs\SIP-MIB" />
+    <EmbeddedResource Include="mibs\SNA-NAU-MIB" />
+    <EmbeddedResource Include="mibs\SNMP-FRAMEWORK-MIB.mib" />
+    <EmbeddedResource Include="mibs\SNMP-VIEW-BASED-ACM-MIB.mib" />
+    <EmbeddedResource Include="mibs\SNMPv2-CONF" />
+    <EmbeddedResource Include="mibs\SNMPv2-MIB" />
+    <EmbeddedResource Include="mibs\SNMPv2-SMI" />
+    <EmbeddedResource Include="mibs\SNMPv2-TC" />
+    <EmbeddedResource Include="mibs\SNMPv2-TM" />
+    <EmbeddedResource Include="mibs\TCPIPX-MIB" />
+    <EmbeddedResource Include="mibs\TOKEN-RING-RMON-MIB" />
+    <EmbeddedResource Include="mibs\TOKENRING-MIB" />
+    <EmbeddedResource Include="mibs\UCD-DEMO-MIB.txt" />
+    <EmbeddedResource Include="mibs\UCD-DISKIO-MIB.txt" />
+    <EmbeddedResource Include="mibs\UCD-DLMOD-MIB.txt" />
+    <EmbeddedResource Include="mibs\UCD-IPFWACC-MIB.txt" />
+    <EmbeddedResource Include="mibs\UCD-SNMP-MIB.txt" />
+    <EmbeddedResource Include="mibs\usm.mib" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
