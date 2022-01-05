@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CoreMibParser
+namespace Kvartasoft.Snmp.MibParser
 {
     public class MibTable
     {

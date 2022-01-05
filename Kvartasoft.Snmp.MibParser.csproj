@@ -4,6 +4,17 @@
     <TargetFramework>net5.0</TargetFramework>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Copyright>Kvarta Soft Ltd.</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/kvartasoft/MibParser</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>snmp;mib;parser;mibparser</PackageTags>
+    <Company>Kvarta Soft Ltd.</Company>
+    <Authors>Todor Manev</Authors>
+    <Description>.NET Library for parsing SNMP MIB tables.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Product>$(AssemblyName)</Product>
   </PropertyGroup>
 
   <ItemGroup>
@@ -164,6 +175,13 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

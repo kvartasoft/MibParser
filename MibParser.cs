@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreMibParser
+namespace Kvartasoft.Snmp.MibParser
 {
 
     public enum SnmpItemType
