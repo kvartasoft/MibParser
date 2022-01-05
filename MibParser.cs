@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Kvartasoft.Snmp.MibParser
 {
@@ -757,13 +756,12 @@ namespace Kvartasoft.Snmp.MibParser
                 Tables[CurrentMIB] = new MibTable(Tables); /// Create new table parse again....
             }
         }
-        private const string EmbeddedResourcePath = "CoreMibParser.mibs.";
+        private const string EmbeddedResourcePath = "Kvartasoft.Snmp.MibParser.mibs.";
         //private readonly string[] DefaultMIBs = { "SNMPv2-SMI",  "RFC1155-SMI","RFC1213-MIB", "SNMPv2-MIB", "IF-MIB", "SNMPv2-CONF", "SNMPv2-TC" };
          
         public static MibTable ParseDefaultMIBs(string mib)
         {
             MibParser mibParser = new MibParser(); 
-//            var tmp = Assembly.GetExecutingAssembly().GetManifestResourceNames();
 
             var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(EmbeddedResourcePath + mib); //com.stackoverflow.plugin.example.Foo.pdf
 
@@ -778,7 +776,7 @@ namespace Kvartasoft.Snmp.MibParser
                 }
                 stream.Close();
             }
-            Console.WriteLine("File: {0} Errors:{1} ", mib, mibParser.Errors.Count);
+            //Console.WriteLine("File: {0} Errors:{1} ", mib, mibParser.Errors.Count);
             mibParser.FinishDecode();
             return mibParser.Tables[mib];
 // USED TO EXPORT to JSON            ExportLookup("RFC1213-MIB", "ifOperStatus", "export.json");

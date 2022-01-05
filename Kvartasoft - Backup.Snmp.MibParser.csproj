@@ -16,9 +16,9 @@
     <PackageId>$(AssemblyName)</PackageId>
     <Product>$(AssemblyName)</Product>
     <PackageIcon>logo.png</PackageIcon>
-    <FileVersion>2.1.1</FileVersion>
-    <AssemblyVersion>2.1.1</AssemblyVersion>
-    <Version>2.1.1</Version>
+    <FileVersion></FileVersion>
+    <AssemblyVersion>2.1.0</AssemblyVersion>
+    <Version>$(VersionPrefix)</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageProjectUrl>www.kvarta.net</PackageProjectUrl>
   </PropertyGroup>
