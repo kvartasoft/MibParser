@@ -1,2 +1,2 @@
 # MibParser
-Library for parsing SNMP MIB tables.
+.NET Library for parsing SNMP MIB tables.
